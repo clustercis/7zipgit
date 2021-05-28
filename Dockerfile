@@ -7,5 +7,5 @@ ARG P7ZIP_VERSION
 RUN apk --update --no-cache add \
     p7zip=${P7ZIP_VERSION}-r4 \
     git \
-    php
+    php \
   && rm -rf /var/cache/apk/* /tmp/*
